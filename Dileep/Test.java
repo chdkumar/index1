@@ -1,14 +1,10 @@
 public class Test {
     public static void main(String[] args) {
         int count=0;
-        while(true)
+        while(count<=10)
         {
-            System.out.println("Hello");
+            System.out.println(count);
             count++;
-            if(count<12)
-            {
-                System.out.println("out of count");
-            }
         }
     }
     
